@@ -33,6 +33,6 @@
 - [After finalizing the release merge release/* into both master and develop.]
 - [For urgent fixes create a hotfix/* branch from master then merge it into both master and develop.]
 
-
+### Differences
 - [Forking]: creates a personal copy of someone else’s repository on a hosting service like GitHub.
 - [Cloning]: creates a copy of an entire repository on your local machine.
