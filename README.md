@@ -9,9 +9,34 @@
 	- git push origin main
  
 #### Some of the GIT commands
-
+- [pull](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
+    	- git pull --ff
+	
+	- git pull --rebase
+	
+	- git pull upstream main
+ - 
 - [merge](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
-- [rebase](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
+- [rebase](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH) : is a powerful Git command used to integrate changes from one branch into another. It’s often used to keep a feature branch up-to-date with
+ 	the latest changes from a main branch, or to clean up commit history
+ 
+ 	- git rebase <feature branch> <main>
+  
+	- git add <file name>
+ 
+	- git rebase --continue
+  
+	- git symbolic-ref HEAD refs/heads/rebasepractice
+   
+
+	### Revet the rebase changes
+
+	- git worktree purne -- remove all head cache
+ - 
+	- git reset --hard origin/main
+ - 
+	- git pull --rebase
+  	
 - [fetch](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH) : when fetch command execute, it will fetch updates from remote repo, will show difference between your local branch and remote branch.
    It will not clone or download code  from remote repo to on your local machine.
 
@@ -32,11 +57,9 @@
 - [reset](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH): Moves the branch pointer and optionally modifies the staging area and working directory. It can change the commit history and is often used for local changes or to rewrite history before pushing
   	- git reset ( default) - move the changes to untracking area
 
-	- git reset --soft - move the changes to staging area.
+	- git reset --soft <commitid> - move the changes to staging area.
 
-	- git reset --soft <commitid>
-
-	- git reset --hard - it will delete commit id , parmently from HEAD
+	- git reset --hard <commitid> - it will delete commit id , parmently from HEAD
 
   
 - [stash](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
@@ -58,7 +81,9 @@
             5. git push origin main -f
   
 
-- [cherry-pick](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
+- [cherry-pick](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH) : is used to move specific commit id changes from one branch to other branch, after moving changes we have to commit manually
+   add some file in Dev branch and commit it
+checkout to master branch
 - [logs](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [ pull](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [reflog](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
