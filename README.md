@@ -54,7 +54,8 @@
 	- git  checkout HEAD~2 , // it will checkout the code which is in commit 2
    
 - [conflict](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
-- [reset](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH): Moves the branch pointer and optionally modifies the staging area and working directory. It can change the commit history and is often used for local changes or to rewrite history before pushing
+- [reset](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH): Moves the branch pointer and optionally modifies the staging area and working directory.
+       It can change the commit history and is often used for local changes or to rewrite history before pushing
   	- git reset ( default) - move the changes to untracking area
 
 	- git reset --soft <commitid> - move the changes to staging area.
@@ -82,7 +83,10 @@
   
 
 - [cherry-pick](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH) : is used to move specific commit id changes from one branch to other branch, after moving changes we have to commit manually
-   add some file in Dev branch and commit it
+   add some file in Dev branch and commit it.
+  	1. git cherry-pick <dev branch commit id>
+	2. git cherry-pick commit-id -e // it will help to add new commit massge
+	3. git cherry-pick  commit-id -n // it will move changes from dev to master branch with same commit id.
 checkout to master branch
 - [logs](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [ pull](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
