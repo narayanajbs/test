@@ -19,16 +19,16 @@
 
 ### Branches:
 
-master: Contains production-ready code.
-develop: Integration branch where features are merged before release.
-feature/*: Branches created from develop for new features.
-release/*: Branches created from develop for preparing a new release.
-hotfix/*: Branches created from master for urgent fixes.
+- [master] : Contains production-ready code.
+- [develop] : Integration branch where features are merged before release.
+- [feature/*] : Branches created from develop for new features.
+- [release/*] : Branches created from develop for preparing a new release.
+- [hotfix/*] : Branches created from master for urgent fixes.
 
 ### Workflow:
 
-Create a feature/* branch from develop for new features.
-Merge feature branches into develop.
-When ready for release, create a release/* branch from develop.
-After finalizing the release, merge release/* into both master and develop.
-For urgent fixes, create a hotfix/* branch from master, then merge it into both master and develop.
+- [Create a feature/* branch from develop for new features.]
+- [Merge feature branches into develop.]
+- [When ready for release create a release/* branch from develop.]
+- [After finalizing the release merge release/* into both master and develop.]
+- [For urgent fixes create a hotfix/* branch from master then merge it into both master and develop.]
