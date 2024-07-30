@@ -120,21 +120,21 @@ checkout to master branch
   	- git reflog show master@{1.day.ago} //  it will display one day ago log of the master branch
   	- git diff main main@HEAD{3}
   	- git diff main main@{1.week.ago}
-###Delete the branch 
+### Delete the branch 
 
 	- Git branch –delete <branch name>
 	
 	- Git branch –d  <branch name>
 	
-###To check branch delete are not 
+### To check branch delete are not 
 
      Git branch –a
 
-###To delete remote branch 
+### To delete remote branch 
 
 	- Git push  origin –delete <<branch name >> 
 
-###To delete the changes 
+### To delete the changes 
 
 	- Git checkout <file name>    
 
@@ -165,7 +165,7 @@ checkout to master branch
 
 - [**Reset**]: command is used to move the current branch’s HEAD to a specified commit while keeping changes in the working directory and the staging area (index)
   
-###Q&A
+### Q&A
 
 1. difference between git bash and git merge
      git bash is a terminal, used to interact with another application.
