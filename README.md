@@ -1,4 +1,13 @@
 # GIT
+
+### Attach local branch to Remote Repository
+	- git init
+	- git add readme.md
+	- git commit -m "initial" .
+	- git branch -M main
+	- git remote add origin <<git url>
+	- git push origin main
+ 
 #### Some of the GIT commands
 
 - [git cherry](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
