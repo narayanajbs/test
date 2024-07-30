@@ -17,6 +17,8 @@
 	- git pull upstream main
  - 
 - [merge](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
+    	- git merge --restore
+  	- git merge --abort
 - [rebase](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH) : is a powerful Git command used to integrate changes from one branch into another. It’s often used to keep a feature branch up-to-date with
  	the latest changes from a main branch, or to clean up commit history
  
@@ -36,6 +38,7 @@
 	- git reset --hard origin/main
    
 	- git pull --rebase
+ 	- git rebase –restore
   	
 - [fetch](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH) : when fetch command execute, it will fetch updates from remote repo, will show difference between your local branch and remote branch.
    It will not clone or download code  from remote repo to on your local machine.
@@ -116,7 +119,24 @@ checkout to master branch
   	- git reflog show master@{1.day.ago} //  it will display one day ago log of the master branch
   	- git diff main main@HEAD{3}
   	- git diff main main@{1.week.ago}
-    
+###Delete the branch 
+
+	- Git branch –delete <branch name>
+	
+	- Git branch –d  <branch name>
+	
+###To check branch delete are not 
+
+     Git branch –a
+
+###To delete remote branch 
+
+	- Git push  origin –delete <<branch name >> 
+
+###To delete the changes 
+
+	- Git checkout <file name>    
+
 
 # Git branching strategy
 
@@ -143,7 +163,35 @@ checkout to master branch
 - [**Revert**] -  Creates a new commit that undoes changes from a previous commit without altering the commit history. Good for undoing changes in a shared repository
 
 - [**Reset**]: command is used to move the current branch’s HEAD to a specified commit while keeping changes in the working directory and the staging area (index)
-  
+##Q&A
+1. difference between git bash and git merge
+     git bash is a terminal, used to interact with another application.
+     Git  merge is used to merge changes with other branch.
+2. 1how to amend a commit in git?
+	if you want to add something to existing commit, it can be used to commit your broken changes.
+	- git commit --amend .
+3. what is webhook?
+	 --is basically part of github / bitbucket , is somthing assume
+4. what are pre-commit hooks and post-commit hooks?
+
+	pre-commit hooks- hook means hook is something , if you want perform some action before or after ,is called hook.
+	pre-commit hooks - are the action are that are taken before you do git commit.
+	if you don't want to commit like passwords, private /public keys, we have to update those details in pre-commit file, so it will prevent while commit the change, if they exist in the code.
+
+	post-commit hooks-  are the action are that are taken after you do git commit.
+
+5. what is .git and .gitignore?
+
+	.git - everything in the git , will contains all the information like all project details, file information related to commit, your remote repository address etc. it will have all information related to repository
+
+	.gitignore - if you want to ignore any thing , just add file information to the .gitignore file
+6. what are the Git commands that you use to commit changes to your remote repository?
+Ans
+	a. add
+	b. commit
+	c. push
+
+
 ### Hosting Static webpage
 - create repo with this name formate  **<github_accountname.github.io> narayana.github.io**
 - git commit -m index.html
