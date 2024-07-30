@@ -16,11 +16,12 @@
 - [fetch](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [tags](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH) : Naming the label to particualar commit, we can refer this tag for feature use.
 
-      	- gt tav v1.0.0
-  
+      	
+  	- git tag v1.0.0
+  	  
 	- git tag ( list all tags)
    
-	- git tag -l "*SOI*"
+	- git tag -l "*"SOI"*"
    
 	- git checkout <tagname> // tagname is nothing but a commit id, it will detach the HEAD
    
