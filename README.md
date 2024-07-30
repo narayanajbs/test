@@ -10,12 +10,13 @@
  
 #### Some of the GIT commands
 - [pull](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
+- 
     	- git pull --ff
 	
 	- git pull --rebase
 	
 	- git pull upstream main
- - 
+   
 - [merge](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
     	- git merge --restore
   	- git merge --abort
@@ -163,7 +164,9 @@ checkout to master branch
 - [**Revert**] -  Creates a new commit that undoes changes from a previous commit without altering the commit history. Good for undoing changes in a shared repository
 
 - [**Reset**]: command is used to move the current branch’s HEAD to a specified commit while keeping changes in the working directory and the staging area (index)
+- 
 ##Q&A
+
 1. difference between git bash and git merge
      git bash is a terminal, used to interact with another application.
      Git  merge is used to merge changes with other branch.
