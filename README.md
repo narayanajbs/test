@@ -51,5 +51,11 @@
 - [For urgent fixes create a hotfix/* branch from master then merge it into both master and develop.]
 
 ### Differences
-- [Forking]: creates a personal copy of someone else’s repository on a hosting service like GitHub.
+- [Forking]: creates a personal copy of someone else’s repository on a hosting service like GitHub.he is not collaborator but he can contribute to the code and raise the PR
 - [Cloning]: creates a copy of an entire repository on your local machine.
+### Hosting Static webpage
+- create repo with this name formate  **<github_accountname.github.io> narayana.github.io**
+- git commit -m index.html
+- git push -u main
+- go to setting/pages , here we can find our webpage URL like this - https://narayanatg.github.io/
+
