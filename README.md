@@ -29,12 +29,12 @@
 	- git symbolic-ref HEAD refs/heads/rebasepractice
    
 
-	### Revet the rebase changes
+	#### Revet the rebase changes
 
 	- git worktree purne -- remove all head cache
- - 
+  
 	- git reset --hard origin/main
- - 
+   
 	- git pull --rebase
   	
 - [fetch](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH) : when fetch command execute, it will fetch updates from remote repo, will show difference between your local branch and remote branch.
