@@ -10,6 +10,15 @@
 - [reset](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [stash](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [squache](https://www.youtube.com/watch?v=viY1BbKZhSI)
+        Git to combine multiple commits into a single commit. This is particularly useful for cleaning up a commit history before merging a feature branch into a main branch
+        Example 
+            1. Git rebase –i HEAD@{3}
+            2. It will open editor 
+            3. Just add key word squash <existing commit id> comments, it will delete the comments which you do not want, and add new comments.
+              ![image](https://github.com/user-attachments/assets/5d138654-9b49-4bf9-bc39-b8e246d7e9cf)
+            4. git rebase --continue
+            5. git push origin main -f
+
 - [cherry-pick](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [logs](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [ pull](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
