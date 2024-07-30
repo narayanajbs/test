@@ -31,6 +31,17 @@
 - [logs](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [ pull](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [reflog](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
+  	- This logs available in local only , not available to other collaborator.
+	- This logs will expire after 90 days, if you want to customise , use below commands
+		git config gc.reflogExpire "6 months"
+		git config gc.reflogExpireUnreachable "1 year"
+
+	  - git show reflog
+	  - git reflog show master@{2} // it will skip {0}&{1} from the list , will display all logs from {2}
+	  - git reflog show master@{1.day.ago} //  it will display one day ago log of the master branch
+	  - git diff main main@HEAD{3}
+          - git diff main main@{1.week.ago}
+    
 
 # Git branching strategy
 
@@ -74,3 +85,6 @@
 - Setting alias through CMD
 
 	git config --global alias.s "status"
+### To know your git config file location
+	git config --list --show-origin
+	git config --list --show-origin --global
