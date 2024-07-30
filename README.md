@@ -1,5 +1,5 @@
-#GIT
-####Some of the GIT commands
+# GIT
+#### Some of the GIT commands
 
 - [git cherry](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
 - [merge](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
@@ -15,9 +15,9 @@
 - [ pull](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [reflog](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
 
-#Git branching strategy
+# Git branching strategy
 
-###Branches:
+### Branches:
 
 master: Contains production-ready code.
 develop: Integration branch where features are merged before release.
@@ -25,7 +25,7 @@ feature/*: Branches created from develop for new features.
 release/*: Branches created from develop for preparing a new release.
 hotfix/*: Branches created from master for urgent fixes.
 
-###Workflow:
+### Workflow:
 
 Create a feature/* branch from develop for new features.
 Merge feature branches into develop.
