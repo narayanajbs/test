@@ -58,4 +58,13 @@
 - git commit -m index.html
 - git push -u main
 - go to setting/pages , here we can find our webpage URL like this - https://narayanatg.github.io/
-
+### Setting Alias for git commands
+      - Go to **c/user/hp/.gitconfig** file add below commands to set alias for **status, log and commit** command
+        
+                [alias]
+                s = status
+                l = log
+                cm = commit -m
+         // just press **s** it will display the status of the branch , need to type complete command like git status, like similar for other commands)
+       - Setting alias through CMD
+          git config --global alias.s "status"
