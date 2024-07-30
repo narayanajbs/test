@@ -10,10 +10,11 @@
  
 #### Some of the GIT commands
 
-- [git cherry](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
 - [merge](https://www.youtube.com/watch?v=SwDF9mtI8Ek)
 - [rebase](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
-- [fetch](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
+- [fetch](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH) : when fetch command execute, it will fetch updates from remote repo, will show difference between your local branch and remote branch.
+   It will not clone or download code  from remote repo to on your local machine.
+
 - [tags](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH) : Naming the label to particualar commit, we can refer this tag for feature use.
 
       	
