@@ -29,7 +29,16 @@
 	- git  checkout HEAD~2 , // it will checkout the code which is in commit 2
    
 - [conflict](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
-- [reset](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
+- [reset](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH): Moves the branch pointer and optionally modifies the staging area and working directory. It can change the commit history and is often used for local changes or to rewrite history before pushing
+  	- git reset ( default) - move the changes to untracking area
+
+	- git reset --soft - move the changes to staging area.
+
+	- git reset --soft <commitid>
+
+	- git reset --hard - it will delete commit id , parmently from HEAD
+
+  
 - [stash](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
 - [squache](https://www.youtube.com/watch?v=viY1BbKZhSI)
         Git to combine multiple commits into a single commit. This is particularly useful for cleaning up a commit history before merging a feature branch into a main branch
@@ -84,8 +93,13 @@
 - [For urgent fixes create a hotfix/* branch from master then merge it into both master and develop.]
 
 ### Differences
-- [Forking]: creates a personal copy of someone else’s repository on a hosting service like GitHub.he is not collaborator but he can contribute to the code and raise the PR
-- [Cloning]: creates a copy of an entire repository on your local machine.
+- [**Forking**]: creates a personal copy of someone else’s repository on a hosting service like GitHub.he is not collaborator but he can contribute to the code and raise the PR
+- [**Cloning**]: creates a copy of an entire repository on your local machine.
+  
+- [**Revert**] -  Creates a new commit that undoes changes from a previous commit without altering the commit history. Good for undoing changes in a shared repository
+
+- [**Reset**]: command is used to move the current branch’s HEAD to a specified commit while keeping changes in the working directory and the staging area (index)
+  
 ### Hosting Static webpage
 - create repo with this name formate  **<github_accountname.github.io> narayana.github.io**
 - git commit -m index.html
