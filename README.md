@@ -63,7 +63,22 @@
 	- git reset --hard <commitid> - it will delete commit id , parmently from HEAD
 
   
-- [stash](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)
+- [stash](https://www.youtube.com/watch?v=XdMMfUKBbtE&list=PLzdWZT-ZJD081YB1TLN5rNI1vw5hTdRzH)  Git used to temporarily save changes you've made to your working directory that you don't want to commit just yet.
+  	It’s helpful when you need to switch to a different branch or task but aren’t ready to commit your current changes.
+
+		- git stash
+		
+		- git stash apply
+		
+		- git stash list
+		
+		- git stash pop
+		
+		- git stash drop
+		
+		- git stash save "comments
+		
+		- git stash clear
 - [squache](https://www.youtube.com/watch?v=viY1BbKZhSI)
         Git to combine multiple commits into a single commit. This is particularly useful for cleaning up a commit history before merging a feature branch into a main branch
 
