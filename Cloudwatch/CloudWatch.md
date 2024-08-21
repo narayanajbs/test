@@ -10,7 +10,8 @@ Cloud Watch alarms are on single metrics
 
 ## Composite Alarms
    Composite alarms are monitoring states of multiple alarms. have to use And or OR conditions
-## Evemts
+
+## Events
 
 	
 
