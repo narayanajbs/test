@@ -45,7 +45,7 @@ cloudwatch logs have two types
 
      log_group_name=  group name
 
-systemctl start **awslogsd**
+  - systemctl start **awslogsd**
 
 **Difference  between Cloudwatch and CloudTrail**
 
