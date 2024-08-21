@@ -1,4 +1,5 @@
-Bassic ( CPU, Network,Disk and status check), it will give every 5 mint logs
+Bassic ( CPU, Network,Disk and status check), it will give every 5 mint logs,
+
 Details - it will give every seconds logs
 
 ## Alarms have 3 States
