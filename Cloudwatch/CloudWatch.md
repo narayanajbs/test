@@ -54,8 +54,39 @@ cloudwatch logs have two types
 **Cloud Trail** -  is used to capture resource level logs, it captures detailed information about API calls made to AWS services, including who made the call, what actions were performed, and when they occurred.
 
 
+#### 									Cloud Trails 
+
+by default it will have 90 days logs , if you want more than that , we hvae to create  Trail and it will ** not caputure online logs**.
+
+Cloud Trails are 3 types
+
+1. Managment Trails - one managment is free, will store in S3 bucket ( in zip format) or Cloudwatch ( have to create logs group, role and policy) // just have to check box 
+      
+	it will capture all activites of AWS Console like resource creation , deletion and modification etc.
+	
+2. Data event 
+
+	it will capture logs  inside resource. what changes happend at S3 bucket level like what file added , what changes happened in the data level. its support S3 bucket, lake formaton , SNS , lamda, dynamodb and etc
+	
+	
+3. Insight events - it will capture all unsual activites in AWS accounts
 
 
+
+### 								Config
+
+
+AWS Config will run along with cloud trail and store logs in S3 bucket. we have to enable this servierce.
+
+it will monitor all resources in the particular region. it will caprtue what changes and at what time changes happened.
+
+it will collect details from cloud trail.
+
+we capture details of specific resource out of multipule resource or all resources. 
+
+it will capture all global resource logs like S3 , IAM etc  logs.
+
+Also we can set the rules at resource level. if any one  made changes at resouce level (public access)  it will trite it as non-complaint and trigger imidetaily SNS notification.
 
 
 ----------
