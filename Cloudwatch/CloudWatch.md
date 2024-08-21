@@ -12,7 +12,10 @@ Cloud Watch alarms are on single metrics
    Composite alarms are monitoring states of multiple alarms. have to use And or OR conditions
 ## Evemts
 
-	![image](https://github.com/user-attachments/assets/e31e400e-6c95-40d2-9b1a-cf0663f53e04)
+	
+
+ ![image](https://github.com/user-attachments/assets/252589a1-5643-48d3-822a-1c4e7d5f62ea)
+
 
 ## Cannaries 
    will be used for Application logs 
