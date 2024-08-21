@@ -1,7 +1,7 @@
 Bassic ( CPU, Network,Disk and status check), it will give every 5 mint logs
 Details - it will give every seconds logs
 
-## Alarms have 2 States
+## Alarms have 3 States
 Cloud Watch alarms are on single metrics
 1. In Alarm - if CPU utiliztion is high, means if its 90% then it will return In Alarm
 2. Ok Alarm - if CPU utilization is less then 90% tehn it will return Ok
