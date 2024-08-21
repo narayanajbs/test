@@ -39,11 +39,13 @@ vi awslogs.confg
 	log_stream_name= {ec2 instanceid}
 	log_group_name=  group name
 
-systemctl start awslogsd
+systemctl start **awslogsd**
 
-Difference  between Cloudwatch and CloudTrail
+**Difference  between Cloudwatch and CloudTrail**
 
 Cloudwatch - is used to capture Application logs and Sysemlogs ( CPU, Network,Disk, status check and memory like)
+Cloud Trail -  is used to capture resource level logs, it captures detailed information about API calls made to AWS services, including who made the call, what actions were performed, and when they occurred.
+
 
 
 
