@@ -43,8 +43,9 @@ systemctl start **awslogsd**
 
 **Difference  between Cloudwatch and CloudTrail**
 
-Cloudwatch - is used to capture Application logs and Sysemlogs ( CPU, Network,Disk, status check and memory like)
-Cloud Trail -  is used to capture resource level logs, it captures detailed information about API calls made to AWS services, including who made the call, what actions were performed, and when they occurred.
+**Cloudwatch** - is used to capture Application logs and Sysemlogs ( CPU, Network,Disk, status check and memory like)
+
+**Cloud Trail** -  is used to capture resource level logs, it captures detailed information about API calls made to AWS services, including who made the call, what actions were performed, and when they occurred.
 
 
 
