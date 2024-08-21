@@ -31,14 +31,19 @@ cloudwatch logs have two types
 
 ## install cloud agent
 
-yum install -y awslogs
+- yum install -y awslogs
 
-cd /etc/awslogs
-vi awscli.conf   -- updated region
-vi awslogs.confg 
+- cd /etc/awslogs
+
+- **vi awscli.conf**   -- updated region
+
+- vi awslogs.confg
+  
     file= specify application path
-	log_stream_name= {ec2 instanceid}
-	log_group_name=  group name
+  
+    log_stream_name= {ec2 instanceid}
+
+     log_group_name=  group name
 
 systemctl start **awslogsd**
 
