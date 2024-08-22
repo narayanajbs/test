@@ -10,7 +10,14 @@ Cloud Watch alarms are on single metrics
 
 ## Composite Alarms
    Composite alarms are monitoring states of multiple alarms. have to use And or OR conditions
- 
+
+## Events
+
+	
+
+ ![image](https://github.com/user-attachments/assets/252589a1-5643-48d3-822a-1c4e7d5f62ea)
+
+
 ## Cannaries 
    will be used for Application logs 
    
@@ -54,7 +61,7 @@ cloudwatch logs have two types
 **Cloud Trail** -  is used to capture resource level logs, it captures detailed information about API calls made to AWS services, including who made the call, what actions were performed, and when they occurred.
 
 
-#### 									Cloud Trails 
+#### 	----------------								Cloud Trails --------------------------------
 
 by default it will have 90 days logs , if you want more than that , we hvae to create  Trail and it will ** not caputure online logs**.
 
@@ -73,7 +80,7 @@ Cloud Trails are 3 types
 
 
 
-### 								Config
+### 	--------------							Config  ----------------------------------------------
 
 
 AWS Config will run along with cloud trail and store logs in S3 bucket. we have to enable this servierce.
