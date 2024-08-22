@@ -78,7 +78,7 @@ Cloud Trails are 3 types
 
 AWS Config will run along with cloud trail and store logs in S3 bucket. we have to enable this servierce.
 
-it will monitor all resources in the particular region. it will caprtue what changes and at what time changes happened.
+it will monitor all resources in the particular region. it will caprtue details of when it was created and deleted ,what changes and at what time changes happened.
 
 it will collect details from cloud trail.
 
