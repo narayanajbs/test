@@ -55,3 +55,5 @@ To set the alarm for autoscalling
 1. Endpoint Health Check
 2. Calculated Health Check
 3. Health Check based on a Cloudwatch Alaram.
+
+   ![image](https://github.com/user-attachments/assets/1a1d6f37-e0e9-4a64-93c3-bfd2fbe834c1)
