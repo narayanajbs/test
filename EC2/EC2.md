@@ -7,3 +7,5 @@ LightSail
 
 
 CloudFront- for distribution 
+
+how to whitelist ip address

@@ -96,6 +96,16 @@ it will capture all global resource logs like S3 , IAM etc  logs.
 Also we can set the rules at resource level. if any one  made changes at resouce level (public access)  it will trite it as non-complaint and trigger imidetaily SNS notification.
 
 
+### -------------------------------- ELK-------------------------
+
+AWS ELK typically refers to a stack of tools used for log and data analysis:
+
+Elasticsearch: A powerful search and analytics engine.
+Logstash: A data processing pipeline that ingests data from various sources, transforms it, and then sends it to a destination like Elasticsearch.
+Kibana: A visualization tool that works with Elasticsearch to create interactive dashboards and visualizations.
+
+
+https://www.youtube.com/watch?v=ACDIKtYKMAM&list=PLdsu0umqbb8Pyo3fgJADxcTMkwGk--fU3
 ----------
 EC2
 CloudWatch
